@@ -1,6 +1,8 @@
 Test First Ruby -- RSpec 3 Edition
 ==========
 
+En peer learning avec https://github.com/Careless-Whisper
+
 ### Set up instructions
 
 1. Fork this repo
