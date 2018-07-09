@@ -12,15 +12,32 @@ def repeat(str, n = 2)
   p str2
 end
 
-def start_of_word(str, n = 1)
-  arr = str.split(//)
+def start_of_word(str, n)
+  tmp = ""
   i = 0
-  c = 0
-  until c = n do
-    str = Array.new
-    str << arr[i]
+  while i < n do
+    tmp = tmp + str[i]
     i += 1
-    c += 1
   end
-p str
+  p tmp
+end
+
+def first_word(str)
+  string = str.split()
+  p string[0]
+end
+
+def titleize(str)
+  string = str.split()
+  string.each { |mot|
+    if mot == string[0]
+      mot.capitalize!
+    elsif mot == "and" || mot == "the"
+      mot = mot
+    else
+      mot.capitalize!
+   end
+   }
+  str2 = string.join(" ")
+  p str2
 end
