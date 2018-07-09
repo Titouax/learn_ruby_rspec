@@ -1,6 +1,8 @@
 Test First Ruby -- RSpec 3 Edition
 ==========
 
+En peer learning avec <a href="https://github.com/Careless-Whisper">Mailan</a>
+
 ### Set up instructions
 
 1. Fork this repo
