@@ -1,7 +1,7 @@
 Test First Ruby -- RSpec 3 Edition
 ==========
 
-En peer learning avec https://github.com/Careless-Whisper
+En peer learning avec <a href="https://github.com/Careless-Whisper">Mailan</a>
 
 ### Set up instructions
 
